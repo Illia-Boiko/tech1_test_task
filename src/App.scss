@@ -1,3 +1,9 @@
-.starter {
-  font-size: 18px;
+.App {
+  background-color: #283649;
+  min-width: 1024px;
+  padding: 8px;
+
+  &__Header {
+    margin-bottom: 40px;
+  }
 }
