@@ -1,0 +1,35 @@
+.Instances {
+  padding: 20px 10px;
+  background-color: #fff;
+  border-radius: 8px;
+
+  &__title {
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__border {
+    height: 60px;
+    width: 1px;
+    background-color: #999;
+  }
+
+  &__item {
+    text-align: center;
+  }
+
+  &__item-title {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  &__item-content {
+    font-size: 14px;
+    font-weight: 700;
+  }
+}

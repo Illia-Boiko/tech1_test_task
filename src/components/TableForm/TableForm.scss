@@ -1,0 +1,59 @@
+.TableForm {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 8px 20px;
+  box-shadow: 0 3px 3px #eee;
+  border-radius: 8px;
+
+  &__items {
+    display: flex;
+  }
+
+  &__item {
+    margin-left: 10px;
+    
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  &__item-description {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #444;
+  }
+
+  &__input {
+    height: 30px;
+    border: 1px solid #888;
+    border-radius: 8px;
+  }
+
+  &__buttons {
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+  }
+
+  &__submit-button {
+    height: 30px;
+    width: 150px;
+    color: #fff;
+    background-color: #1f314bc7;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  &__clear-button {
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    font-size: 12px;
+    align-self: end;
+    transform: translateY(-10px);
+    cursor: pointer;
+  }
+}

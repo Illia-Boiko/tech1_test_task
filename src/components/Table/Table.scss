@@ -1,0 +1,42 @@
+.Table {
+  background-color: #fff;
+  border-radius: 8px;
+
+  &__sheet {
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #333;
+    font-weight: normal;
+    text-align: center;
+    border-collapse: collapse;
+  }
+
+  &__sheet-head {
+    height: 60px;
+  }
+
+  &__exchange-pair {
+    color: green;
+  }
+
+  &__sell-exchange {
+    color: red;
+  }
+
+  &__adj {
+    height: 1em;
+  }
+}
+
+th {
+  font-weight: inherit;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #ccc;
+}
+
+td {
+  font-weight: 700;
+  padding: 7px 0;
+}

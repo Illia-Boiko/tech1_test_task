@@ -1,0 +1,31 @@
+.Profit {
+  padding: 20px 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  
+  &__title {
+    color: #333;
+    margin-bottom: 15px;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+  }
+
+  &__text {
+    font-size: 12px;
+  }
+
+  &__select {
+    color: #fff;
+    height: 35px;
+    width: 90px;
+    background-color: #1f314bc7;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 10px;
+  }
+}
